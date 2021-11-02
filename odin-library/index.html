@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Odin Library</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="library">Your Library</div>
+      <button id="addBook">Add Book</button>
+    </div>
+    <div id="container">
+      <div id="formPopup">
+        <form id="newBookForm">
+          <div id="newBookHeader">Adding a book to library</div>
+          
+          <label id="titleLabel" for="titleInput" >Title:</label>
+          <input id="titleInput" type="text"></input><br>
+
+          <label id="authorLabel" for="authorInput">Author:</label>
+          <input id="authorInput" type="text"></input><br>
+
+          <label id="pagesLabel" for="pagesInput">Pages:</label>
+          <input id="pagesInput" type="text"></input><br>
+
+          <label id="readLabel" for="readInput">Read?</label>
+          <input id="readInput" type="checkbox"></input><br>
+
+          <input id="submitInput" type="submit" value="Add"></input><br>
+
+        </form>
+        <button id="closeFormButton">X</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
